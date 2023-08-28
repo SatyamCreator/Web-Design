@@ -1,0 +1,95 @@
+.link-btn{
+    background-color: rgb(255, 255, 255);
+    padding: 8px 10px;
+    border-radius: 50px;
+}
+
+.searchbox .form-control{
+    background: rgba(255, 255, 255, 0.925);
+    border: none;
+    border-radius: 25px;
+}
+body{
+    background-color: rgba(238, 238, 238, 0.904);
+    background: linear-gradient(180deg, rgb(241, 241, 241) 0%, rrgb(233, 233, 233)27%, rgb(228, 228, 228) 57%, rgb(204, 205, 206) 100%); 
+    background-repeat: no-repeat;
+
+    background-image: url(../img/bg2.png);
+    background-blend-mode: multiply;
+    background-repeat: repeat;
+}
+.rows{
+    display: inline-flex;
+    overflow-x: auto;
+    z-index: 1024;
+
+}
+.cols{
+    width: 350px;
+}
+.texts{
+    color: rgb(0, 0, 0);
+}
+
+.imgs{
+    background-color: white;
+    background-size: cover;
+    background-position: center;
+    width: 120px;
+    height: 120px;
+    border-radius:50%;
+}
+.rows .btns{
+    padding: 0px;
+    color: black;
+    text-align: center;
+}
+
+
+
+
+
+/* ======================================================= */
+
+@media only screen and (max-width: 600px) {
+    body{
+          background: linear-gradient(180deg, rgba(144,225,244,1) 0%, rgba(82,174,242,1) 27%, rgba(60,128,228,1) 57%, rgba(14,74,140,1) 100%); 
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+    }
+
+    .rows{
+        display: inline-flex;
+        overflow: auto;
+    }
+    .cols .card{
+        width: 230px;
+    }
+    .imgs{
+        background-color: white;
+        background-size: cover;
+        background-position: center;
+        width: 60px;
+        height: 60px;
+      
+    }
+
+    .texts{
+        color: white;
+    }
+
+    ::-webkit-scrollbar{
+        display: none;
+    }
+
+    .form-outline .form-control{
+        background: white;
+        color: rgb(0, 0, 0);
+    }
+    .bgnav{
+        background: linear-gradient(180deg, rgba(144,225,244,1) 0%, rgba(82,174,242,1) 27%, rgba(60,128,228,1) 57%, rgba(14,74,140,1) 100%); 
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+    }
+  
+}
